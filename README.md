@@ -2,9 +2,19 @@
 
 ![image-20231113125033792](README.assets/image-20231113125033792.png)
 
-## 系统版本
+## 开发环境
 
 android 13  --API 33
+
+Android Gradle Plugin Version 7.3.0
+
+Gradle Version 7.4
+
+compileSdk 33
+
+minSdk 16
+
+targetSdk 33
 
 ## 功能测试
 
