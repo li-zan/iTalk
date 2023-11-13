@@ -1,0 +1,83 @@
+<resources>
+    <string name="app_name">iTalk</string>
+
+
+    <string name="pid_default">普通话 (默认)</string>
+    <string-array name="pid">
+        <item>@string/pid_default</item>
+        <item>普通话 (支持语义) </item>
+        <item>普通话远场 </item>
+        <item>普通话远场 (支持语义) </item>
+        <item>英语</item>
+        <item>粤语</item>
+        <item>四川话</item>
+    </string-array>
+
+    <string name="pid_value_default">1537</string>
+    <string-array name="pid_value">
+        <item>@string/pid_value_default</item>
+        <item>15373</item>
+        <item>1936</item>
+        <item>19363</item>
+        <item>1737</item>
+        <item>1637</item>
+        <item>1837</item>
+    </string-array>
+
+    <string name="vad_timeout_default">800毫秒，静音800ms后断句，适用于输入短语</string>
+    <string-array name="vad_timeout_list">
+        <item>@string/vad_timeout_default</item>
+        <item>2000毫秒,静音2000ms后断句，适用于输入长句</item>
+    </string-array>
+
+    <string name="vad_timeout_value_default">800</string>
+    <string-array name="vad_timeout_value">
+        <item>@string/vad_timeout_value_default</item>
+        <item>2000</item>
+    </string-array>
+
+    <string name="voice_default">度小美（普通女声）(默认)</string>
+    <string-array name="voice_list">
+        <item>@string/voice_default</item>
+        <item>度小宇（成熟男声）</item>
+        <item>度逍遥（磁性男声）</item>
+        <item>度丫丫（童声女）</item>
+        <item>度小鹿（甜美女声）</item>
+    </string-array>
+
+    <string name="voice_value_default">0</string>
+    <string-array name="voice_value_list">
+        <item>@string/voice_value_default</item>
+        <item>1</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5118</item>
+    </string-array>
+
+    <string name="language_type_default">中英文混合(默认)</string>
+    <string-array name="language_type_list">
+        <item>@string/language_type_default</item>
+        <item>英文</item>
+        <item>葡萄牙语</item>
+        <item>法语</item>
+        <item>德语</item>
+        <item>意大利语</item>
+        <item>西班牙语</item>
+        <item>俄语</item>
+        <item>日语</item>
+    </string-array>
+
+    <string name="language_type_value_default">CHN_ENG</string>
+    <string-array name="language_type_value_list">
+        <item>@string/language_type_value_default</item>
+        <item>ENG</item>
+        <item>POR</item>
+        <item>FRE</item>
+        <item>GER</item>
+        <item>ITA</item>
+        <item>SPA</item>
+        <item>RUS</item>
+        <item>JAP</item>
+    </string-array>
+
+</resources>

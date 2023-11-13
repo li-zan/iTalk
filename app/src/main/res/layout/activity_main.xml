@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:gravity="center"
+	android:background="#FFECECEC"
+	android:orientation="vertical">
+
+	<LinearLayout
+		android:id="@+id/view1"
+		android:layout_width="0dp"
+		android:layout_height="0dp"
+		android:gravity="center"
+		android:orientation="vertical"
+		android:layout_margin="50dp"
+		app:layout_constraintBottom_toTopOf="@+id/view2"
+		app:layout_constraintEnd_toEndOf="parent"
+		app:layout_constraintStart_toStartOf="parent"
+		app:layout_constraintTop_toTopOf="parent">
+
+		<TextView
+			android:layout_width="match_parent"
+			android:layout_height="match_parent"
+			android:gravity="center"
+			android:text="ASR"
+			android:textColor="#FCEDE7CA"
+			android:textSize="50sp" />
+	</LinearLayout>
+
+	<LinearLayout
+		android:id="@+id/view2"
+		android:layout_width="0dp"
+		android:layout_height="0dp"
+		android:layout_marginStart="50dp"
+		android:layout_marginLeft="50dp"
+		android:layout_marginEnd="50dp"
+		android:layout_marginRight="50dp"
+		android:gravity="center"
+		android:orientation="vertical"
+		app:layout_constraintBottom_toTopOf="@+id/view3"
+		app:layout_constraintEnd_toEndOf="parent"
+		app:layout_constraintStart_toStartOf="parent"
+		app:layout_constraintTop_toBottomOf="@+id/view1">
+
+		<TextView
+			android:layout_width="match_parent"
+			android:layout_height="match_parent"
+			android:gravity="center"
+			android:text="TTS"
+			android:textColor="@color/md_theme_light_secondaryContainer"
+			android:textSize="50sp" />
+	</LinearLayout>
+
+	<LinearLayout
+		android:id="@+id/view3"
+		android:layout_width="0dp"
+		android:layout_height="0dp"
+		android:gravity="center"
+		android:orientation="vertical"
+		android:layout_margin="50dp"
+		app:layout_constraintBottom_toBottomOf="parent"
+		app:layout_constraintEnd_toEndOf="parent"
+		app:layout_constraintStart_toStartOf="parent"
+		app:layout_constraintTop_toBottomOf="@+id/view2">
+
+		<TextView
+			android:layout_width="match_parent"
+			android:layout_height="match_parent"
+			android:gravity="center"
+			android:text="OCR"
+			android:textColor="@color/md_theme_dark_onBackground"
+			android:textSize="50sp" />
+	</LinearLayout>
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+

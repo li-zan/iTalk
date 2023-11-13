@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+                  android:key="root_screen">
+    <PreferenceCategory
+            android:title="常用">
+        <ListPreference
+            android:key="pid"
+            android:entries="@array/pid"
+            android:entryValues="@array/pid_value"
+            android:title="语种"
+            android:summary="选择待识别的语种"
+            android:defaultValue="@string/pid_value_default"
+            android:dialogTitle="PID，语种"/>
+    </PreferenceCategory>
+    <PreferenceCategory
+        android:title="VAD设置">
+        <ListPreference
+            android:key="vad_endpoint_timeout"
+            android:entries="@array/vad_timeout_list"
+            android:entryValues="@array/vad_timeout_value"
+            android:title="VAD时长设置"
+            android:summary="停止说活多长时间自动停止录音"
+            android:defaultValue="@string/vad_timeout_value_default"
+            android:dialogTitle="VAD时长设置"/>
+    </PreferenceCategory>
+
+</PreferenceScreen>

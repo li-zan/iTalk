@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+                  android:key="root_screen">
+    <PreferenceCategory
+            android:title="常用">
+        <ListPreference
+            android:key="voice"
+            android:entries="@array/voice_list"
+            android:entryValues="@array/voice_value_list"
+            android:title="发音人"
+            android:summary="选择在线发音人"
+            android:defaultValue="@string/voice_value_default"
+            android:dialogTitle="发音人（音色）"/>
+        <SwitchPreference
+            android:defaultValue="false"
+            android:key="isSave"
+            android:summary="开启保存音频后，在合成结束后，可选择自定义位置保存mp3音频文件"
+            android:title="保存音频" />
+    </PreferenceCategory>
+
+
+</PreferenceScreen>

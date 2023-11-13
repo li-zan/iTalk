@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+                  android:key="root_screen">
+    <PreferenceCategory
+            android:title="常用">
+        <ListPreference
+            android:key="language_type"
+            android:entries="@array/language_type_list"
+            android:entryValues="@array/language_type_value_list"
+            android:title="识别语言类型"
+            android:summary="选择待识别内容语种"
+            android:defaultValue="@string/language_type_value_default"
+            android:dialogTitle="识别语言类型"/>
+        <SwitchPreference
+            android:defaultValue="false"
+            android:key="isAutoDetect"
+            android:summary="是否检测语言，仅支持（中文、英语、日语、韩语）"
+            android:title="检测语言" />
+    </PreferenceCategory>
+
+
+</PreferenceScreen>
