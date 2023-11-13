@@ -16,6 +16,8 @@ minSdk 16
 
 targetSdk 33
 
+ASR、TTS、OCR引擎分别集成百度Android SDK
+
 ## 功能测试
 
 ### 语音识别功能测试
